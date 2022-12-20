@@ -1,12 +1,12 @@
 // =======Options START=======
 var authConfig = {
-  siteName: "GoIndex-theme-acrou", // 网站名称
+  siteName: "DragonJay's pic bed", // 网站名称
   version: "1.1.2", // 程序版本
   theme: "acrou",
   // 强烈推荐使用自己的 client_id 和 client_secret
-  client_id: "202264815644.apps.googleusercontent.com",
-  client_secret: "X4Z3ca8xfWDb1Voo-F9a7ZxJ",
-  refresh_token: "", // 授权 token
+  client_id: "205760917919-7r108d5sf9f58adn0rlbjfe70isbh6nf.apps.googleusercontent.com",
+  client_secret: "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",
+  refresh_token: "{"access_token":"ya29.a0AX9GBdUsdru-yacUAeCXY_X9_g4TqqzLcCcWVO33xyX_C9SmwZmfiMrXjva4ZWXTlH0bkoqhBOKzQAWv8VU0WvqN1qgBLIEiEhoA-Rsshpi2xujX9aE9z2lJtjp_Rv67rQnUZVO_RVLdKh5jiWVrPk33YSL3aCgYKAS0SARISFQHUCsbC5e9Or71COLskS-hyvuwDHg0163","token_type":"Bearer","refresh_token":"1//0e82gcse1wkujCgYIARAAGA4SNwF-L9IrClJ7M9SnKW4kGmbDhwpCBLN6GAMtieJx9u11ep14C8KC9eS6tUA0sHnxj297O-0E62U","expiry":"2022-12-17T15:27:28.6608365+08:00"}", // 授权 token
   /**
    * 设置要显示的多个云端硬盘；按格式添加多个
    * [id]: 可以是 团队盘id、子文件夹id、或者"root"（代表个人盘根目录）；
@@ -22,20 +22,8 @@ var authConfig = {
    */
   roots: [
     {
-      id: "",
+      id: "1k1XDHX-swNjU8J9-sQ7JEPhd29HJxqiT",
       name: "TeamDrive",
-      pass: "",
-    },
-    {
-      id: "root",
-      name: "PrivateDrive",
-      user: "",
-      pass: "",
-      protect_file_link: true,
-    },
-    {
-      id: "",
-      name: "folder1",
       pass: "",
     },
   ],
@@ -80,12 +68,12 @@ var themeOptions = {
      * 是否渲染README.md文件
      * Render README.md file
      */
-    readme_md: false,
+    readme_md: true,
     /**
      * 是否渲染文件/文件夹描述
      * Render file/folder description or not
      */
-    desc: false,
+    desc: true,
   },
   /**
    * 视频播放器选项
